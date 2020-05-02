@@ -23,6 +23,13 @@ namespace RapiSolver.Api.Controllers
         [HttpGet]
         public ActionResult Get()
         {
+            var roles = rolService.GetAll();
+            if (roles == null)
+            {
+                return NotFound();
+            }
+
+
             return Ok(
                 rolService.GetAll()
             );
