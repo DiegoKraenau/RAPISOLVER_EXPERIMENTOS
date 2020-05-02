@@ -1,38 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj": {}
+    "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj": {
+    "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj",
         "projectName": "RapiSolver.Api",
-        "projectPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj",
+        "projectPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\RapiSolver.Api.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\obj\\",
+        "outputPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
-                "projectPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
+              "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
+                "projectPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
               },
-              "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj": {
-                "projectPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj"
+              "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj": {
+                "projectPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj"
               }
             }
           }
@@ -71,6 +73,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -79,29 +91,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
+    "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
         "projectName": "RapiSolver.Entity",
-        "projectPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
+        "projectPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\obj\\",
+        "outputPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -135,36 +149,38 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj": {
+    "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj",
         "projectName": "RapiSolver.Repository",
-        "projectPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj",
+        "projectPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\obj\\",
+        "outputPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
-                "projectPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
+              "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
+                "projectPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
               }
             }
           }
@@ -203,39 +219,41 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj": {
+    "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj",
         "projectName": "RapiSolver.Service",
-        "projectPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj",
+        "projectPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\RapiSolver.Service.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\obj\\",
+        "outputPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
-                "projectPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
+              "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
+                "projectPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj"
               },
-              "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj": {
-                "projectPath": "C:\\Users\\diego\\Desktop\\RepositorioExperimentos\\API_RESTFUL_WEB\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj"
+              "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj": {
+                "projectPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Repository\\RapiSolver.Repository.csproj"
               }
             }
           }
@@ -266,7 +284,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

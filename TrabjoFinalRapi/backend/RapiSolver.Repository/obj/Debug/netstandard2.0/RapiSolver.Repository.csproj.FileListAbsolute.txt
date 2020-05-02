@@ -75,3 +75,15 @@ C:\Users\diego\Desktop\RepositorioExperimentos\API_RESTFUL_WEB\TrabjoFinalRapi\b
 C:\Users\diego\Desktop\RepositorioExperimentos\API_RESTFUL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.csproj.CopyComplete
 C:\Users\diego\Desktop\RepositorioExperimentos\API_RESTFUL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.dll
 C:\Users\diego\Desktop\RepositorioExperimentos\API_RESTFUL_WEB\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.pdb
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Repository.deps.json
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Repository.dll
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Repository.pdb
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Entity.dll
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Entity.pdb
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.csprojAssemblyReference.cache
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.AssemblyInfo.cs
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.csproj.CopyComplete
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.dll
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.pdb

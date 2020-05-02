@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2PF4PxMsUAakrgBhiqAmYzmL45SfPArxEoCsdsC7dlKDlUOVC/Qvd8Rc4b77pb+xa56HbCRg+CKvmABL71nkKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
