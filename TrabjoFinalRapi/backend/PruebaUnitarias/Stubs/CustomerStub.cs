@@ -34,7 +34,7 @@ namespace PruebaUnitarias.Stubs
         };
         public static Customer customer_2 = new Customer()
         {
-            CustomerId = 1,
+            CustomerId = 2,
             Name = "Liliana",
             LastName = "Flores",
             Email = "ly0@gmail.com",
