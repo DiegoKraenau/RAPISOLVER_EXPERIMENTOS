@@ -16,5 +16,9 @@ namespace RapiSolver.Entity
         public Rol Rol{get;set;}
 
         public int RolId{get;set;}
+
+       
+    
+        
     }
 }

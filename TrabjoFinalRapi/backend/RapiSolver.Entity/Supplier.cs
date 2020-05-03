@@ -9,5 +9,8 @@ namespace RapiSolver.Entity
           public  IEnumerable<ServiceDetails> ServiciosDetails{get;set;}
 
           public IEnumerable<Recommendation> Recommendations{get;set;}
+
+
+        
     }
 }

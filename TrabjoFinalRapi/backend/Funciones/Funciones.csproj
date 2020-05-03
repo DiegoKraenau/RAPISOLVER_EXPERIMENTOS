@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PruebaUnitarias\PruebaUnitarias.csproj" />
+    <ProjectReference Include="..\RapiSolver.Api\RapiSolver.Api.csproj" />
+    <ProjectReference Include="..\RapiSolver.Entity\RapiSolver.Entity.csproj" />
+    <ProjectReference Include="..\RapiSolver.Repository\RapiSolver.Repository.csproj" />
+    <ProjectReference Include="..\RapiSolver.Service\RapiSolver.Service.csproj" />
+  </ItemGroup>
+
+</Project>

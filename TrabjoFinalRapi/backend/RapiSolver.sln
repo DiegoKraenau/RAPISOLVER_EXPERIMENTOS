@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RapiSolver.Entity", "RapiSo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RapiSolver.Service", "RapiSolver.Service\RapiSolver.Service.csproj", "{B7EDD168-9B89-4A3E-8BFF-65B77198029F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaUnitarias", "PruebaUnitarias\PruebaUnitarias.csproj", "{C89E156A-76C0-4B78-8A8F-2903DDE4A3CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PruebaUnitarias", "PruebaUnitarias\PruebaUnitarias.csproj", "{C89E156A-76C0-4B78-8A8F-2903DDE4A3CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -47,7 +47,7 @@ namespace PruebaUnitarias
         {
             Rol rol = new Rol();
 
-            bool resultado = rol.ingresarRol(1, "Puede publicar", true);
+            bool resultado = Metodos.ingresarRol(1, "Puede publicar", true);
 
             Assert.AreEqual(true, resultado);
 
@@ -78,7 +78,7 @@ namespace PruebaUnitarias
             //Resultado
 
             var rolObtenido = new Rol();
-            var resultado = rolObtenido.getRolById(listaRoles, 1);
+            var resultado = Metodos.getRolById(listaRoles, 1);
 
             Assert.AreNotEqual(null, resultado);
 
