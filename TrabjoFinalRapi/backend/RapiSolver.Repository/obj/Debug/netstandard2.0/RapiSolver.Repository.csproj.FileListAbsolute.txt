@@ -87,3 +87,15 @@ C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolve
 C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.csproj.CopyComplete
 C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.dll
 C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.pdb
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Repository.deps.json
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Repository.dll
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Repository.pdb
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Entity.dll
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\bin\Debug\netstandard2.0\RapiSolver.Entity.pdb
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.csprojAssemblyReference.cache
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.AssemblyInfoInputs.cache
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.AssemblyInfo.cs
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.csproj.CopyComplete
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.dll
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.pdb
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Repository\obj\Debug\netstandard2.0\RapiSolver.Repository.csproj.CoreCompileInputs.cache

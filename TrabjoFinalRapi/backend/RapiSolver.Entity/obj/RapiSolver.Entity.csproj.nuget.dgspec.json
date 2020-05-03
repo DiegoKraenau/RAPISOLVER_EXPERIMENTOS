@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {}
+    "C:\\Users\\carlo\\Desktop\\Nueva carpeta\\ultimo2 exp\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
+    "C:\\Users\\carlo\\Desktop\\Nueva carpeta\\ultimo2 exp\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Desktop\\Nueva carpeta\\ultimo2 exp\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
         "projectName": "RapiSolver.Entity",
-        "projectPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
-        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diego\\Desktop\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\obj\\",
+        "projectPath": "C:\\Users\\carlo\\Desktop\\Nueva carpeta\\ultimo2 exp\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\RapiSolver.Entity.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carlo\\Desktop\\Nueva carpeta\\ultimo2 exp\\RAPISOLVER_EXPERIMENTOS\\TrabjoFinalRapi\\backend\\RapiSolver.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,14 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

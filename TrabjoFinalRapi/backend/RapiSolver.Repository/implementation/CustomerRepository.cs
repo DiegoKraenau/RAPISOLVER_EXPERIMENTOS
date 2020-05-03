@@ -19,7 +19,8 @@ namespace RapiSolver.Repository.implementation
 
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            //throw new System.NotImplementedException();
+            return true;
         }
 
         public Customer Get(int id)

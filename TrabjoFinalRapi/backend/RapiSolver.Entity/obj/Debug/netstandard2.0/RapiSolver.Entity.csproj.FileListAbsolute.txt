@@ -63,3 +63,12 @@ C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolve
 C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.dll
 C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.pdb
 C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.csprojAssemblyReference.cache
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Entity\bin\Debug\netstandard2.0\RapiSolver.Entity.deps.json
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Entity\bin\Debug\netstandard2.0\RapiSolver.Entity.dll
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Entity\bin\Debug\netstandard2.0\RapiSolver.Entity.pdb
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.csprojAssemblyReference.cache
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.AssemblyInfoInputs.cache
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.AssemblyInfo.cs
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.dll
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.pdb
+C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\RapiSolver.Entity\obj\Debug\netstandard2.0\RapiSolver.Entity.csproj.CoreCompileInputs.cache
