@@ -1,5 +1,11 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RapiSolver.Entity;
+﻿using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
+using PruebaUnitarias.MockRepositories;
+using PruebaUnitarias.Stubs;
+using RapiSolver.Repository;
+using RapiSolver.Service;
+using RapiSolver.Service.implementation;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,150 +15,62 @@ namespace PruebaUnitarias
     [TestClass]
     public class ServiceDetailsTest
     {
+        private static IServiceDetailsService _serviceDetailService;
 
-        private List<ServiceDetails> ListaServiceDeatils = new List<ServiceDetails>();
-        Supplier supplier1 = new Supplier();
-        Supplier supplier2 = new Supplier();
-        ServiceCategory categoria1 = new ServiceCategory();
-        ServiceCategory categoria2 = new ServiceCategory();
-        ServiceCategory categoria3 = new ServiceCategory();
-        Servicio servicio1 = new Servicio();
-        Servicio servicio2 = new Servicio();
-        Servicio servicio3 = new Servicio();
-        ServiceDetails detail1 = new ServiceDetails();
-        ServiceDetails detail2 = new ServiceDetails();
-        ServiceDetails detail3 = new ServiceDetails();
-
-     [TestInitialize]
-        public void inicializador()
+        [ClassInitialize()]
+        public static void Setup(TestContext context)
         {
-            //Suppliers
-             supplier1 = new Supplier()
-            {
-                UsuarioId = 1,
-                Name = "Diego",
-                LastName = "Kraenau",
-                Email = "diegokraenau@gmail.com",
-                Contraseña = "diego2009",
-                SupplierId = 1,
-                Age = "19"
+            Mock<IServiceDetailsRepository> _serviceDetailRepository = new ServiceDeatilsRepositoryMock().serviceDeatilsRepository;
 
-
-            };
-
-            supplier2 = new Supplier()
-            {
-                UsuarioId = 2,
-                Name = "Carlos",
-                LastName = "Castilla",
-                Email = "carlos@gmail.com",
-                Contraseña = "carlos2009",
-                SupplierId = 2,
-                Age = "22"
-            };
-
-            //Categorias
-
-            categoria1 = new ServiceCategory()
-            {
-                ServiceCategoryId = 1,
-                CategoryName = "Electricidad",
-                CategoryDescription = "Servicios de Electricidad"
-            };
-
-            categoria2 = new ServiceCategory()
-            {
-                ServiceCategoryId = 2,
-                CategoryName = "Jardineria",
-                CategoryDescription = "Servicios de Jardineria"
-            };
-
-            categoria3 = new ServiceCategory()
-            {
-                ServiceCategoryId = 3,
-                CategoryName = "Gasfiteria",
-                CategoryDescription = "Servicios de Gasfiteria"
-            };
-
-            //Servicios
-
-            servicio1 = new Servicio() {
-                ServicioId = 1,
-                ServiceCategory =categoria1,
-                Cost="40",
-                Description="Mejores servicios",
-                Name="Electricista",
-                ServiceCategoryId=categoria1.ServiceCategoryId
-                
-            };
-
-
-            servicio2 = new Servicio()
-            {
-                ServicioId = 2,
-                ServiceCategory = categoria2,
-                Cost = "30",
-                Description = "Mejores servicios",
-                Name = "Jardinero",
-                ServiceCategoryId = categoria2.ServiceCategoryId
-
-            };
-
-            servicio3 = new Servicio()
-            {
-                ServicioId = 3,
-                ServiceCategory = categoria3,
-                Cost = "60",
-                Description = "Mejores servicios",
-                Name = "Gasfitero",
-                ServiceCategoryId = categoria3.ServiceCategoryId
-
-            };
-
-
-            //ServiceDetails
-
-            detail1 = new ServiceDetails() { 
-                ServiceDetailsId=servicio1.ServicioId,
-                Servicio=servicio1,
-                ServicioId=servicio1.ServicioId,
-                Supplier=supplier1,
-                SupplierId=supplier1.SupplierId
-            };
-
-            detail2 = new ServiceDetails() { 
-                ServiceDetailsId=servicio2.ServicioId,
-                Servicio=servicio2,
-                ServicioId=servicio2.ServicioId,
-                Supplier=supplier2,
-                SupplierId=supplier2.SupplierId
-            };
-
-            // Poblar listar de ServiceDetails
-            ListaServiceDeatils.Add(detail1);
-            ListaServiceDeatils.Add(detail2);
-
-
-           
-             
+            _serviceDetailService = new ServiceDetailsService(_serviceDetailRepository.Object);
 
         }
 
         [TestMethod]
-        public void validarCreacionServiceDeatilsTest()
+        public void Save_ObjServiceDetail_ReturnTrue()
         {
-            detail3 = new ServiceDetails()
-            {
-                ServiceDetailsId = servicio3.ServicioId,
-                Servicio = servicio3,
-                ServicioId = servicio3.ServicioId,
-                Supplier = supplier1,
-                SupplierId = supplier1.SupplierId
-            };
 
-            bool resultado = Metodos.validarCreacionServiceDeatils(detail3, ListaServiceDeatils);
-            Assert.AreEqual(true, resultado);
+            var result = _serviceDetailService.Save(ServiceDetailsStub.serviceDetails_1);
+            Assert.AreEqual(true, result);
+
         }
 
+        [TestMethod]
+        public void GetAll_Empty_ReturnRolList()
+        {
+
+            var result = _serviceDetailService.GetAll();
+            result.Should().NotBeNullOrEmpty();
+            result.Should().HaveCountGreaterOrEqualTo(2);
+
+
+        }
+
+
+        [TestMethod]
+        public void GetById_SingleNumber_ReturnServiceDetail()
+        {
+            var result = _serviceDetailService.Get(1);
+
+            result.ServiceDetailsId.Should().Be(1);
+            result.SupplierId.Should().BePositive();
+
+        }
+
+        [TestMethod]
+        public void UpdateById_ObjServiceDetail_ReturnTrue()
+        {
+            var result = _serviceDetailService.Update(ServiceDetailsStub.serviceDetails_1);
+            Assert.AreEqual(true, result);
+        }
+
+        [TestMethod]
+        public void DeleteById_SingleNumber_ReturnTrue()
+        {
+
+            var result = _serviceDetailService.Delete(1);
+            Assert.AreEqual(true, result);
+
+        }
     }
 }

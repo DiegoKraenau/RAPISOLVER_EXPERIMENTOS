@@ -1,91 +1,76 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using RapiSolver.Api.Controllers;
-using RapiSolver.Entity;
+using PruebaUnitarias.MockRepositories;
+using PruebaUnitarias.Stubs;
+using RapiSolver.Repository;
+using RapiSolver.Repository.implementation;
 using RapiSolver.Service;
-using System.Collections;
+using RapiSolver.Service.implementation;
+using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace PruebaUnitarias
 {
     [TestClass]
     public class RolTest
     {
-        /*
-        [TestMethod]
-        public void get()
+        private static IRolService _rolService;
+
+        [ClassInitialize()]
+        public static void Setup(TestContext context)
         {
+            Mock<IRolRepository> _rolRepository = new RolRepositoryMock().rolRepository;
 
-            var role = new Rol()
-            {
-                RolId = 4,
-                RolDescription = "No puede publicar",
-                Publish = false
-            };
-
-            IRolService rolservice=null;
-            
-            var g = rolservice.Save(role);
-
-
-
-            var mock = new Mock<IRolService>();
-            mock.Setup(x => x.GetAll()).Returns(default(IEnumerable<Rol>));
-            var roleController = new RolesController(mock.Object);
-
-            var resultado = roleController.Get();
-
-            Assert.IsInstanceOfType(resultado, typeof(NotFoundResult));
-
-        }
-        */
-
-
-        [TestMethod]
-        public void ingresarRolTest()
-        {
-            Rol rol = new Rol();
-
-            bool resultado = Metodos.ingresarRol(1, "Puede publicar", true);
-
-            Assert.AreEqual(true, resultado);
+            _rolService = new RolService(_rolRepository.Object);
 
         }
 
         [TestMethod]
-        public void getRolById()
+        public void Save_ObjRol_ReturnTrue()
         {
-            var rol = new Rol()
-            {
-                RolId = 1,
-                RolDescription="Puede publicar",
-                Publish=true
-            
-            };
-            var rol2 = new Rol()
-            {
-                RolId = 2,
-                RolDescription = "No puede publicar",
-                Publish = false
-            };
 
-            List<Rol> listaRoles = new List<Rol>();
-            listaRoles.Add(rol);
-            listaRoles.Add(rol2);
-
-
-            //Resultado
-
-            var rolObtenido = new Rol();
-            var resultado = Metodos.getRolById(listaRoles, 1);
-
-            Assert.AreNotEqual(null, resultado);
+            var result = _rolService.Save(RolStub.rol_1);
+            Assert.AreEqual(true, result);
 
         }
-        
+
+        [TestMethod]
+        public void GetAll_Empty_ReturnRolList()
+        {
+
+            var result = _rolService.GetAll();
+            result.Should().NotBeNullOrEmpty();
+            result.Should().HaveCountGreaterOrEqualTo(2);
 
 
+        }
 
+        [TestMethod]
+        public void GetById_SingleNumber_ReturnRol()
+        {
+            var result = _rolService.Get(1);
+
+            result.RolId.Should().Be(1);
+            result.RolDescription.Should().NotBeNullOrEmpty();
+
+        }
+
+        [TestMethod]
+        public void UpdateById_ObjRol_ReturnTrue()
+        {
+            var result = _rolService.Update(RolStub.rol_1);
+            Assert.AreEqual(true, result);
+        }
+
+        [TestMethod]
+        public void DeleteById_SingleNumber_ReturnTrue()
+        {
+
+            var result = _rolService.Delete(1);
+            Assert.AreEqual(true, result);
+
+        }
     }
 }

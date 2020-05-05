@@ -252,3 +252,7 @@ C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoF
 C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\PruebaUnitarias\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\PruebaUnitarias\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\carlo\Desktop\Nueva carpeta\ultimo2 exp\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\PruebaUnitarias\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\PruebaUnitarias\bin\Debug\netcoreapp3.1\FluentAssertions.dll
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\PruebaUnitarias\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\PruebaUnitarias\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\diego\Desktop\RAPISOLVER_EXPERIMENTOS\TrabjoFinalRapi\backend\PruebaUnitarias\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

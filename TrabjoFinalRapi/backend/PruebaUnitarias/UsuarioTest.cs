@@ -1,5 +1,11 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RapiSolver.Entity;
+﻿using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
+using PruebaUnitarias.MockRepositories;
+using PruebaUnitarias.Stubs;
+using RapiSolver.Repository;
+using RapiSolver.Service;
+using RapiSolver.Service.implementation;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,56 +15,64 @@ namespace PruebaUnitarias
     [TestClass]
     public class UsuarioTest
     {
-        private List<Usuario> ListaUsuarios = new List<Usuario>();
+        private static IUsuarioService _usuarioService;
 
-
-        [TestInitialize]
-        public void inicializador()
+        [ClassInitialize()]
+        public static void Setup(TestContext context)
         {
-            
-            Usuario usuario1 = new Usuario()
-            {
-                UsuarioId = 1,
-                UserName = "diegokraenau@gmail.com",
-                UserPassword = "diego2009",
-                RolId = 1
-            };
+            Mock<IUsuarioRepository> _usuarioRepository = new UsuarioRepositoryMock().usuarioRepository;
 
-            Usuario usuario2 = new Usuario()
-            {
-                UsuarioId = 2,
-                UserName = "carlos@gmail.com",
-                UserPassword = "carlos2009",
-                RolId = 2
-            };
+            _usuarioService = new UsuarioService(_usuarioRepository.Object);
 
-            ListaUsuarios.Add(usuario1);
-            ListaUsuarios.Add(usuario2);
         }
 
+
         [TestMethod]
-        public void validarCreacionUsuarioTest()
+        public void Save_ObjUsuario_ReturnTrue()
         {
-            
 
-
-            //Prueba
-            Usuario usuario = new Usuario();
-
-            bool resultado = Metodos.validarCreacionUsuario(3, "diegokraenau3@gmail.com", "diego2009", 1, ListaUsuarios);
-
-            Assert.AreEqual(true, resultado);
-
+            var result = _usuarioService.Save(UsuarioStub.usuario_1);
+            Assert.AreEqual(true, result);
 
         }
 
         [TestMethod]
-        public void loginUsuarioTest()
+        public void GetAll_Empty_ReturnUsuarioList()
         {
-            Usuario usuario = new Usuario();
-            Usuario resultado = Metodos.loginUsuario("diegokraenau@gmail.com", "diego2009", ListaUsuarios);
 
-            Assert.IsNotNull(resultado);
+            var result = _usuarioService.GetAll();
+            result.Should().NotBeNullOrEmpty();
+            result.Should().HaveCountGreaterOrEqualTo(2);
+
+
         }
+
+
+        [TestMethod]
+        public void GetById_SingleNumber_ReturnUsuario()
+        {
+            var result = _usuarioService.Get(1);
+
+            result.UsuarioId.Should().Be(1);
+            result.UserName.Should().NotBeNullOrEmpty();
+
+        }
+
+        [TestMethod]
+        public void UpdateById_ObjUsuario_ReturnTrue()
+        {
+            var result = _usuarioService.Update(UsuarioStub.usuario_1);
+            Assert.AreEqual(true, result);
+        }
+
+        [TestMethod]
+        public void DeleteById_SingleNumber_ReturnTrue()
+        {
+
+            var result = _usuarioService.Delete(1);
+            Assert.AreEqual(true, result);
+
+        }
+
     }
 }
