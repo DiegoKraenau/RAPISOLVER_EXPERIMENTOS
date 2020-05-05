@@ -32,6 +32,7 @@ namespace RapiSolver.Repository.implementation
             }
             return result;
         }
+     
 
         public IEnumerable<Location> GetAll()
         {

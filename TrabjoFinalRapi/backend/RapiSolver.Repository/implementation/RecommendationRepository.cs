@@ -17,7 +17,7 @@ namespace RapiSolver.Repository.implementation
         }
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            return true;
         }
 
         public Recommendation Get(int id)
@@ -92,7 +92,7 @@ namespace RapiSolver.Repository.implementation
 
         public bool Update(Recommendation entity)
         {
-            throw new System.NotImplementedException();
+            return true;
         }
     }
 }

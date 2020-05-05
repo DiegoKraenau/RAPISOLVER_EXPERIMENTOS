@@ -15,17 +15,17 @@ namespace RapiSolver.Service.implementation
         }
         public bool Delete(int id)
         {
-            throw new System.NotImplementedException();
+            return recommendationRepository.Delete(id);
         }
 
         public Recommendation Get(int id)
         {
-            throw new System.NotImplementedException();
+            return recommendationRepository.Get(id);
         }
 
         public IEnumerable<Recommendation> GetAll()
         {
-            throw new System.NotImplementedException();
+            return recommendationRepository.GetAll();
         }
 
         public IEnumerable<RecommendationViewModel> GetRecommendationsBySupplierId(int id)
@@ -40,7 +40,7 @@ namespace RapiSolver.Service.implementation
 
         public bool Update(Recommendation entity)
         {
-            throw new System.NotImplementedException();
+            return recommendationRepository.Update(entity);
         }
     }
 }
