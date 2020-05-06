@@ -10,7 +10,7 @@ namespace RapiSolver.Service.implementation
         private IReservationRepository reservationRepository;
         public ReservationService(IReservationRepository reservationRepository)
         {
-            this.reservationRepository=reservationRepository;
+            this.reservationRepository = reservationRepository;
         }
         public bool Delete(int id)
         {
@@ -19,12 +19,12 @@ namespace RapiSolver.Service.implementation
 
         public Reservation Get(int id)
         {
-            throw new System.NotImplementedException();
+            return reservationRepository.Get(id);
         }
 
         public IEnumerable<Reservation> GetAll()
         {
-            throw new System.NotImplementedException();
+            return reservationRepository.GetAll();
         }
 
         public IEnumerable<ReservationViewModel> GetAllReservationsByUserId(int id)
@@ -34,12 +34,12 @@ namespace RapiSolver.Service.implementation
 
         public bool Save(Reservation entity)
         {
-             return reservationRepository.Save(entity);
+            return reservationRepository.Save(entity);
         }
 
         public bool Update(Reservation entity)
         {
-            throw new System.NotImplementedException();
+            return reservationRepository.Update(entity);
         }
     }
 }

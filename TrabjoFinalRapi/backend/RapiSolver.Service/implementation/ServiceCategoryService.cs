@@ -10,7 +10,7 @@ namespace RapiSolver.Service.implementation
         private IServiceCategoryRepository serviceCategoryRepository;
         public ServiceCategoryService(IServiceCategoryRepository serviceCategoryRepository)
         {
-            this.serviceCategoryRepository=serviceCategoryRepository;
+            this.serviceCategoryRepository = serviceCategoryRepository;
         }
         public bool Delete(int id)
         {
@@ -34,7 +34,7 @@ namespace RapiSolver.Service.implementation
 
         public bool Update(ServiceCategory entity)
         {
-           return serviceCategoryRepository.Update(entity);
+            return serviceCategoryRepository.Update(entity);
         }
     }
 }
